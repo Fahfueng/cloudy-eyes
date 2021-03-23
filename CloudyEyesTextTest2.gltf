@@ -1,0 +1,625 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 13536,
+            "type": "SCALAR",
+            "max": [
+                2398.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 7670,
+            "type": "VEC3",
+            "max": [
+                9.278857231140137,
+                2.9063098430633547,
+                1.4531549215316773
+            ],
+            "min": [
+                -9.27885627746582,
+                0.0,
+                -1.4531549215316773
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 7670,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 7670,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 30486,
+            "type": "SCALAR",
+            "max": [
+                7669.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC3",
+            "max": [
+                7.891966342926025,
+                3.188838481903076,
+                1.5944194793701172
+            ],
+            "min": [
+                -7.891966342926025,
+                0.0,
+                -1.5944194793701172
+            ]
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 27642,
+            "type": "SCALAR",
+            "max": [
+                6985.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 28788,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 57576,
+            "byteLength": 19192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 76768,
+            "byteLength": 54144,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 130912,
+            "byteLength": 92040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 222952,
+            "byteLength": 92040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 314992,
+            "byteLength": 61360,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 376352,
+            "byteLength": 121944,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 498296,
+            "byteLength": 83832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 582128,
+            "byteLength": 83832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 665960,
+            "byteLength": 55888,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 721848,
+            "byteLength": 110568,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 832416,
+            "uri": "CloudyEyesTextTest2_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00012549130769912153,
+                "yfov": 0.6024156808853149,
+                "zfar": 6.902021884918213,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "roughness_image_texture",
+            "uri": "CloudyEyesTextTest2_images/roughness_image_texture.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "CloudyEyesTextTest2_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "image",
+            "uri": "CloudyEyesTextTest2_images/image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "ice_normal",
+            "uri": "CloudyEyesTextTest2_images/ice_normal.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture_0",
+            "uri": "CloudyEyesTextTest2_images/normal_image_texture_0.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "frosted_glass_normal",
+            "uri": "CloudyEyesTextTest2_images/frosted_glass_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Water",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Glossy Paper 5",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 2
+                }
+            },
+            "normalTexture": {
+                "index": 3
+            },
+            "alphaMode": "BLEND",
+            "name": "Ice",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9900000095367432,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "emissiveFactor": [
+                0.08910000324249268,
+                0.09000000357627869,
+                0.09000000357627869
+            ],
+            "alphaMode": "BLEND",
+            "name": "Glass",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 4
+            },
+            "name": "Glossy Paper 4",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "normalTexture": {
+                "index": 5
+            },
+            "alphaMode": "BLEND",
+            "name": "Frosted Glass",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Stop & Look 2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "name": "at the sky",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 8,
+                        "NORMAL": 9,
+                        "TEXCOORD_0": 10
+                    },
+                    "indices": 11,
+                    "material": 4
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 5
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.7416477799415588,
+                -0.45882704854011538,
+                0.28541359305381777
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.9231919646263123,
+                0.7744945883750916,
+                2.1429460048675539
+            ],
+            "scale": [
+                4.101974964141846,
+                4.101974964141846,
+                4.101974964141846
+            ],
+            "mesh": 0,
+            "name": "Sphere 12"
+        },
+        {
+            "translation": [
+                -0.8528266549110413,
+                2.058683156967163,
+                -1.27407705783844
+            ],
+            "rotation": [
+                -0.06102864444255829,
+                0.5991504192352295,
+                -0.008577045053243637,
+                0.7982610464096069
+            ],
+            "scale": [
+                0.13801421225070954,
+                0.13801434636116029,
+                0.0777146965265274
+            ],
+            "mesh": 1,
+            "name": "Stop & Look 2"
+        },
+        {
+            "translation": [
+                -0.9080348014831543,
+                1.2441787719726563,
+                1.518410563468933
+            ],
+            "scale": [
+                4.101974964141846,
+                4.101974964141846,
+                4.101974964141846
+            ],
+            "mesh": 2,
+            "name": "Sphere 11"
+        },
+        {
+            "translation": [
+                0.9231919646263123,
+                1.4006757736206055,
+                -1.9560449123382569
+            ],
+            "scale": [
+                4.101974964141846,
+                4.101974964141846,
+                4.101974964141846
+            ],
+            "mesh": 3,
+            "name": "Sphere 14"
+        },
+        {
+            "translation": [
+                0.3842238485813141,
+                0.24446776509284974,
+                0.23858092725276948
+            ],
+            "rotation": [
+                -0.18840442597866059,
+                0.5958853960037231,
+                -0.0740082710981369,
+                0.7771403789520264
+            ],
+            "scale": [
+                0.16189897060394288,
+                0.1618988960981369,
+                0.07368353009223938
+            ],
+            "mesh": 4,
+            "name": "at the sky"
+        },
+        {
+            "translation": [
+                0.9231919646263123,
+                0.7744945883750916,
+                -1.0627198219299317
+            ],
+            "scale": [
+                4.101974964141846,
+                4.101974964141846,
+                4.101974964141846
+            ],
+            "mesh": 5,
+            "name": "Sphere 13"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "roughness_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "image",
+            "sampler": 2,
+            "source": 2
+        },
+        {
+            "name": "ice_material::normal::image",
+            "sampler": 3,
+            "source": 3
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 4,
+            "source": 4
+        },
+        {
+            "name": "frosted_glass_material::normal::image",
+            "sampler": 5,
+            "source": 5
+        }
+    ],
+    "scene": 0
+}
