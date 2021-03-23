@@ -1,0 +1,210 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC3",
+            "max": [
+                1.0784834623336793,
+                0.0933401957154274,
+                0.0
+            ],
+            "min": [
+                0.004160008393228054,
+                -0.024570049718022348,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 39444,
+            "type": "SCALAR",
+            "max": [
+                39443.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 473328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 473328,
+            "byteLength": 473328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 946656,
+            "byteLength": 315552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1262208,
+            "byteLength": 157776,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1419984,
+            "uri": "CloudyEyesTextyy_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0000519096247444395,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.855029344558716,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "roughness_image_texture",
+            "uri": "CloudyEyesTextyy_images/roughness_image_texture.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "CloudyEyesTextyy_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Glossy Paper",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TextMesh#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.9535644054412842,
+                -1.680101752281189,
+                1.6226259469985963
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.050494078546762469,
+                0.601805567741394,
+                1.243998408317566
+            ],
+            "rotation": [
+                -0.08692328631877899,
+                0.7079340219497681,
+                -0.08541927486658097,
+                0.6956847906112671
+            ],
+            "scale": [
+                2.351107597351074,
+                2.3511059284210207,
+                5.75513219833374
+            ],
+            "mesh": 0,
+            "name": "Text"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "roughness_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
