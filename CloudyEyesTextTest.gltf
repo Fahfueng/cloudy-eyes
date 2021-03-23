@@ -1,0 +1,373 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC3",
+            "max": [
+                7.891966342926025,
+                3.188838481903076,
+                1.5944194793701172
+            ],
+            "min": [
+                -7.891966342926025,
+                0.0,
+                -1.5944194793701172
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 6986,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 27642,
+            "type": "SCALAR",
+            "max": [
+                6985.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 5738,
+            "type": "VEC3",
+            "max": [
+                7.8856706619262699,
+                2.8798437118530275,
+                1.4399218559265137
+            ],
+            "min": [
+                -7.885671138763428,
+                0.0,
+                -1.4399218559265137
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 5738,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 5738,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 22056,
+            "type": "SCALAR",
+            "max": [
+                5737.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 83832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 83832,
+            "byteLength": 83832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 167664,
+            "byteLength": 55888,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 223552,
+            "byteLength": 110568,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 334120,
+            "byteLength": 68856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 402976,
+            "byteLength": 68856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 471832,
+            "byteLength": 45904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 517736,
+            "byteLength": 88224,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 605960,
+            "uri": "CloudyEyesTextTest_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00011700787581503391,
+                "yfov": 0.6024156808853149,
+                "zfar": 6.435433387756348,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "roughness_image_texture",
+            "uri": "CloudyEyesTextTest_images/roughness_image_texture.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "CloudyEyesTextTest_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.028999999165534974
+            },
+            "name": "Plastic 17",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    0.8468732833862305,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Glossy Paper 3",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9900000095367432,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Glass",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "at the sky",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Stop & Look",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 6,
+                        "NORMAL": 5,
+                        "POSITION": 4
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "at the sky",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.530664324760437,
+                -0.13921882212162019,
+                1.3629391193389893
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.08076820522546768,
+                0.20343878865242005,
+                -1.1263298988342286
+            ],
+            "rotation": [
+                -0.19042769074440003,
+                0.5303152203559876,
+                -0.009271807037293911,
+                0.8260853886604309
+            ],
+            "scale": [
+                0.15472988784313203,
+                0.1547299027442932,
+                0.15472987294197083
+            ],
+            "mesh": 0,
+            "name": "at the sky"
+        },
+        {
+            "translation": [
+                0.12605033814907075,
+                2.4970452785491945,
+                -0.08580123633146286
+            ],
+            "rotation": [
+                -0.0739569216966629,
+                0.6331498622894287,
+                -0.06096541881561279,
+                0.7680721879005432
+            ],
+            "scale": [
+                0.12092895060777664,
+                0.12092899531126023,
+                0.12092898786067963
+            ],
+            "mesh": 1,
+            "name": "Stop & Look"
+        },
+        {
+            "translation": [
+                -0.2430371791124344,
+                0.2117156982421875,
+                1.3187932968139649
+            ],
+            "rotation": [
+                -0.18758830428123475,
+                0.6336041688919067,
+                -0.034048255532979968,
+                0.749798059463501
+            ],
+            "scale": [
+                0.15472982823848725,
+                0.15472985804080964,
+                0.15472981333732606
+            ],
+            "mesh": 2,
+            "name": "at the sky"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "roughness_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
