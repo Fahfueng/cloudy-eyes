@@ -1,0 +1,276 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 12580,
+            "type": "VEC3",
+            "max": [
+                0.802403450012207,
+                0.35597532987594607,
+                0.5938554406166077
+            ],
+            "min": [
+                -0.802403450012207,
+                0.0,
+                0.4021902084350586
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 12580,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 12580,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 46890,
+            "type": "SCALAR",
+            "max": [
+                12579.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 8492,
+            "type": "VEC3",
+            "max": [
+                0.5928484797477722,
+                0.32397276163101199,
+                0.5559954643249512
+            ],
+            "min": [
+                -0.5928479433059692,
+                0.0,
+                0.37654945254325869
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 8492,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 8492,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 32904,
+            "type": "SCALAR",
+            "max": [
+                8491.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 150960,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 150960,
+            "byteLength": 150960,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 301920,
+            "byteLength": 100640,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 402560,
+            "byteLength": 187560,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 590120,
+            "byteLength": 101904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 692024,
+            "byteLength": 101904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 793928,
+            "byteLength": 67936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 861864,
+            "byteLength": 131616,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 993480,
+            "uri": "CloudyEyesText_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00009259074431611225,
+                "yfov": 0.6024156808853149,
+                "zfar": 5.092491149902344,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.6038274168968201,
+                    0.07421357929706574,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.028999999165534974
+            },
+            "name": "Plastic 16",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Remember Your",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Blue Sky",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.8128919005393982,
+                0.0927383229136467,
+                0.8731016516685486
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -1.4636150598526,
+                1.8548585176467896,
+                -0.6662651896476746
+            ],
+            "rotation": [
+                -0.07411165535449982,
+                0.6587300896644592,
+                -0.06570418924093247,
+                0.7458317875862122
+            ],
+            "scale": [
+                1.3404512405395508,
+                1.3404514789581299,
+                1.340451955795288
+            ],
+            "mesh": 0,
+            "name": "Remember Your"
+        },
+        {
+            "translation": [
+                0.16517086327075959,
+                0.15947972238063813,
+                1.0058633089065552
+            ],
+            "rotation": [
+                -0.2516481578350067,
+                0.6885976195335388,
+                -0.10281772166490555,
+                0.672261118888855
+            ],
+            "scale": [
+                1.6626416444778443,
+                1.6626415252685547,
+                1.662641167640686
+            ],
+            "mesh": 1,
+            "name": "Blue Sky"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,256 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC3",
+            "max": [
+                0.06753888726234436,
+                0.20084071159362794,
+                0.06161219999194145
+            ],
+            "min": [
+                -0.06846717745065689,
+                -0.000756800000090152,
+                -0.06244595721364021
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 119808,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 119808,
+            "type": "SCALAR",
+            "max": [
+                119807.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1437696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1437696,
+            "byteLength": 1437696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2875392,
+            "byteLength": 958464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3833856,
+            "byteLength": 479232,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 4313088,
+            "uri": "CloudyEyesCurve_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00007209740579128265,
+                "yfov": 0.6024156808853149,
+                "zfar": 3.965357542037964,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "blue-sky-with-white-clouds-nature-landscape-background",
+            "uri": "CloudyEyesCurve_images/blue-sky-with-white-clouds-nature-landscape-background.jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.028999999165534974
+            },
+            "name": "Plastic 13",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                0,
+                                0.2990000247955322
+                            ],
+                            "rotation": 0,
+                            "scale": [
+                                0.7009999752044678,
+                                0.7009999752044678
+                            ]
+                        }
+                    }
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.028999999165534974
+            },
+            "name": "Plastic 13",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Mobius Strip",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Mobius Strip",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.5567207336425782,
+                -0.691739559173584,
+                0.8257348537445068
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.1948082000017166,
+                0.2669574022293091,
+                -1.3432061672210694
+            ],
+            "rotation": [
+                0.43852391839027407,
+                0.3459670841693878,
+                0.21676811575889588,
+                0.8006342053413391
+            ],
+            "scale": [
+                7.4365153312683109,
+                7.436520099639893,
+                7.43651819229126
+            ],
+            "mesh": 0,
+            "name": "Mobius Strip"
+        },
+        {
+            "translation": [
+                -0.606557309627533,
+                1.413391351699829,
+                0.787047803401947
+            ],
+            "rotation": [
+                0.12006287276744843,
+                0.19381660223007203,
+                0.8689095377922058,
+                -0.4393361210823059
+            ],
+            "scale": [
+                7.436513423919678,
+                7.436518669128418,
+                7.436521053314209
+            ],
+            "mesh": 1,
+            "name": "Mobius Strip 2"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "texture28359",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ]
+}
