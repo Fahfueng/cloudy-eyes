@@ -1,0 +1,268 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC3",
+            "max": [
+                1.0784834623336793,
+                0.0933401957154274,
+                0.0
+            ],
+            "min": [
+                0.004160008393228054,
+                -0.024570049718022348,
+                -0.009999999776482582
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 39444,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 19788,
+            "type": "SCALAR",
+            "max": [
+                39443.0
+            ],
+            "min": [
+                3.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 9828,
+            "type": "SCALAR",
+            "max": [
+                38793.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 9828,
+            "type": "SCALAR",
+            "max": [
+                39430.0
+            ],
+            "min": [
+                2365.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 473328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 473328,
+            "byteLength": 473328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 946656,
+            "byteLength": 315552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1262208,
+            "byteLength": 79152,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1341360,
+            "byteLength": 39312,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1380672,
+            "byteLength": 39312,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1419984,
+            "uri": "CloudyEyesTexty_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00005190959564060904,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.855027675628662,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "name": "Default Material",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "emissiveFactor": [
+                0.056768130511045459,
+                0.056768130511045459,
+                0.056768130511045459
+            ],
+            "name": "Default Material 4",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    1.0
+                ],
+                "roughnessFactor": 0.0
+            },
+            "emissiveFactor": [
+                0.05554863065481186,
+                0.05554863065481186,
+                0.05554863065481186
+            ],
+            "name": "Metal",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TextMesh#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 4,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 5,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.2431247234344483,
+                -1.705156683921814,
+                1.8589693307876588
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.050494153052568439,
+                0.601805567741394,
+                1.2439974546432496
+            ],
+            "rotation": [
+                -0.08692333847284317,
+                0.7079340219497681,
+                -0.08541932702064514,
+                0.6956847906112671
+            ],
+            "scale": [
+                2.3511064052581789,
+                2.3511056900024416,
+                5.7551350593566898
+            ],
+            "mesh": 0,
+            "name": "Text"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
